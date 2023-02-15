@@ -10,16 +10,10 @@
     "dev": "nodemon -r dotenv/config server.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --setupFiles dotenv/config"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SchoolOfCode/bc13_w9_project-backend-just-the-ticket-backend.git"
-  },
+  
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SchoolOfCode/bc13_w9_project-backend-just-the-ticket-backend/issues"
-  },
-  "homepage": "https://github.com/SchoolOfCode/bc13_w9_project-backend-just-the-ticket-backend#readme",
+  
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
